@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    background: url(5271613.jpg) no-repeat center;
+    background-size: cover;
+    font-family: 'Ultra', serif;
+}
+
+header {
+    display: flex;
+    gap: 80px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.logo {
+    width: 5%;
+}
+
+h1 {
+    margin: 0;
+    color: black;
+    font-size: 45px;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    gap: 30px;
+    text-align: center;
+}
+
+.centro {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 50px 350px;
+}
+
+#imagen {
+    width: 500px;
+    background: none;
+}
+
+#jugar {
+    font-size: 2em;
+    background: rgb(213, 112, 233);
+    border-radius: 10px;
+    border: none;
+    font-family: 'Ultra', serif;
+}
+
+.btn {
+    margin-top: 20px;
+    background-color: rgb(213, 112, 233);
+    border: none;
+    border-radius: 10px;
+    font-size: 2em;
+    font-family: 'Ultra', serif;
+}
+
+.btn a {
+    color: #000000;
+    text-decoration: none;
+
+}
+
+#i {
+    font-size: 50px;
+}
+
+#resultado {
+    font-size: 30px;
+    color: red;
+}
+
+#resultado2 {
+    font-size: 30px;
+    color: rgb(21, 145, 21);
+}
+
+#palabra_a_adivinar {
+    height: 7em;
+}
+
+#palabra_a_adivinar span {
+    vertical-align: bottom;
+    font-size: 3em;
+    border-bottom: 2px solid black;
+    width: 40px;
+    text-align: center;
+    margin-right: 10px;
+    display: inline-block;
+
+}
+
+#letras {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px;
+}
+
+#letras button {
+    width: 35px;
+    padding: 6px 0;
+    text-align: center;
+    font-family: Carter One;
+    font-size: 1.5em;
+    background: rgb(210, 138, 224);
+    border-radius: 10px;
+    border: none;
+    font-family: 'Ultra', serif;
+}
+
+section {
+    display: flex;
+    gap: 30px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+        background-size: auto;
+    }
+    main, .div {
+       width: 100%;
+       display: flex;
+       flex-wrap: wrap;
+    }
+}
