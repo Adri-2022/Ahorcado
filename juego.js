@@ -1,4 +1,4 @@
-var palabras = ["hola", "manzana", "heladera", "html", "alura", "caramelo", "criollo", "empanadas", "avion", "everest", "celular"]
+var palabras = ["hola", "manzana", "heladera", "html", "alura", "caramelo", "criollo", "empanadas", "avion", "everest", "celular", "calesita", "cmputadora", "amor", "compasion", "felicidad", "pausa", "gentileza", "explorador", "ventilador", "elefante", "jirafa", "mono", "existencia", "muñeca", "zoologico", "yate", "pequeño", "juguete", "grande", "primero", "ultimo", "araña", "waterpolo", "whisky", "walabi", "yerba", "yacare", "mujer", "hombre", "historia", "yegua", "sarten", "alegria", "corazon", "algarrobo", "chañar", "madre", "padre", "hermano", "chocolate", "helado", "frutilla", "naranja", "mandarina"]
 
 var palabrita;
 var cant_errores = 0;
